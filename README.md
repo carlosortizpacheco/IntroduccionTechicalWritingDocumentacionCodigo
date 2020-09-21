@@ -106,3 +106,98 @@
   - “La computadora *ejecuta* varios programas **eficazmente**”.
 - El adverbio no debe estar separado del verbo, también puede estar junto a este:
   - “La computadora **ejecuta eficazmente** varios programas”.
+### Preposición
+- Las preposiciones son palabras invariables que se utilizan para establecer una relación de dependencia entre dos o más palabras.
+  - “Los programas escritos **con** JavaScript se pueden probar directamente **en** cualquier navegador **sin** necesidad de procesos intermedios”.
+### Conjunción y transición
+- **Conjunciones**; son palabras que se utilizan para unir dos o más partes de una oración o dos o más oraciones. Las más comunes son: “y”, “pero” y “o”.
+- **Transiciones**; las más importantes usadas en technical writing son: “por ejemplo”, “sin embargo”, “en primer lugar” y “además”.
+
+## Usar y definir términos adecuados
+- Un tema particular del technical writing cuando escribimos documentos es utilizar de manera frecuente terminología desconocida. Esta terminología es importante ubicarla y definirla.
+
+### Explica términos nuevos o desconocidos
+- Conforme vas forjando tus habilidades de escritura aprenderás que algunos términos pueden ser desconocidos. Es por ello que nuestro deber es comprender dichos términos y ligarlos a explicaciones, comparaciones o ejemplos para que nuestros lectores tengan una referencia más tangible.
+- Si tu documento gira en torno a ese término desconocido, define desde un principio su significado. 
+- Si tu documento tiene muchos términos desconocidos, lo más recomendable es que hagas un glosario con todas las definiciones.
+
+### Usa términos de forma coherente 
+-  Utiliza el mismo término que has usado a lo largo de tu documento. Una vez que ya estás usando un término a lo largo de tu escritura, no lo modifiques ni lo renombres.
+
+### Usa abreviaturas
+- Existen casos en los que algunos conceptos se pueden usar de manera abreviada y luego puedes usar esa abreviatura durante todo el documento.
+
+### Usa acrónimos adecuadamente
+- El uso de acrónimos es algo común en cualquier escrito técnico. El acrónimo tiene cierta similitud con las siglas, la única diferencia es que un acrónimo puede formarse tomando tanto la inicial como la primera parte de las palabras que forman el nombre completo, en cambio, la sigla siempre se forma con la letra inicial.
+- Si usas un acrónimo desconocido en tu documento, lo ideal es que escribas el término completo y después el acrónimo entre paréntesis
+- Si defines el significado completo del acrónimo en su primera mención, es suficiente.
+- Las sugerencias puntuales para el uso de acrónimos son:
+  - Si el acrónimo será usado pocas veces, no es necesario definirlo.
+  - Si el acrónimo es más corto que el término completo y lo vas a usar muchas veces en el documento, sí es necesario definirlo.
+  
+## Diferenciar entre voz activa y voz pasiva
+- La voz verbal sirve para marcar la relación que tiene el sujeto con el verbo. 
+- El verbo tiene dos voces: voz activa y voz pasiva.
+
+### Definición de voz activa y voz pasiva
+- La voz activa es el estándar para el technical writing.
+- La mayor parte de las frases en la escritura técnica están en voz activa debido a que es más corta e interesante de leer.
+- La voz activa muestra claramente al sujeto en una situación, por lo que sabemos quién hace qué y a quién.
+- La voz pasiva indica el sujeto "como paciente". Se hace énfasis en un estado o en una acción.
+
+### Estructura para oraciones cortas
++ Podríamos estructurar las oraciones cortas de la siguiente manera:
+  + **Voz activa** = sujeto + verbo + objetivo.
+  + **Voz pasiva** = objetivo + verbo + sujeto.
+
+### Identifica verbos pasivos
++ Puedes identificar fácilmente los verbos pasivos, normalmente siguen la siguiente fórmula:
+  + **Verbo pasivo** = verbo ser + verbo en participio.
++ Los verbos en participio normalmente terminan en -ado y en -ido.
++ Es importante mencionar que existen algunos verbos en participio que son irregulares, es decir, que no necesariamente terminan en -ado o en -ido.
++ Si la frase contiene un sujeto, normalmente la preposición “por” sigue al verbo pasivo. Esta preposición suele ser una ayuda para detectar la voz pasiva.
+
+### Los verbos imperativos son voz activa
++ Un verbo en modo imperativo se usa para dar una indicación, orden o consejo. Cuando hacemos listas lo recomendado es que las frases inicien con un verbo en modo imperativo.
+
+### La voz activa es mejor que la voz pasiva
+- Te recomiendo que uses con mayor frecuencia la voz activa que la voz pasiva.
+- Cuando leemos nuestra mente tiende a convertir la voz pasiva en activa.
+- La voz pasiva da muchas vueltas a algo sencillo (informa la acción, pero de manera indirecta y opacan al sujeto por completo).
+- La voz activa es mejor, te ayuda a ser corto, claro y directo.
+
+## Escribiendo con claridad
+- En el technical writing la claridad es primordial por encima de todo.
+- Las frases son la unidad mínima en las que podemos expresar una idea. 
+- Tus frases deben ser claras y efectivas. Recuerda que a veces escribimos mal porque pensamos mal.
+- La documentación corta es más fácil de leer y darle mantenimiento que a una documentación larga.
+
+### Se breve
+- Es más difícil escribir frases cortas que frases largas. 
+- Redactar frases cortas nos obliga a organizar nuestro pensamiento y ordenar la información.
+- El estilo breve es más exigente y requiere mucha disciplina (es la manera más eficaz para ser claros en nuestros textos).
+- Todo esto tiene que ver con nuestro pensamiento.
+- Si tienes frases muy largas, es señal de que tienes material para sacar de ahí dos o tres frases breves, cada frase puede ser un concepto o una idea.
+- Es bueno agregar de vez en cuando alguna frase larga para no hacer monótona nuestra lectura, solo recuerda ser moderado al momento de usarlas.
+
+### Usa verbos fuertes
+- En el technical writing los verbos son lo más importante de una frase. 
+- Usa verbos precisos, fuertes y específicos.
+  - Verbo fuerte: El sistema muestra un bug cuando…
+  - Verbo débil: Este bug pasa cuando…
+- No aburras a tus lectores usando la palabra “hay”. Dales sujetos y verbos reales
+  - **Hay** una variable llamada mensaje que almacena el mensaje que se mostrará al usuario.
+  - **Una variable** llamada mensaje almacena el mensaje que se mostrará al usuario.
+
+### Elimina o sustituye las palabras superfluas 
+- No tienen ninguna función dentro de nuestras frases. Son “comida chatarra” para nuestro lector.
+  - **A pesar** de que Gerardo no sabe programar, él sabe documentar software.
+  - **Aunque** Gerardo no sabe programar, él sabe documentar software.
+
+### Escribe con las reglas de George Orwell
+- Nunca uses una palabra larga cuando una corta funciona.
+- Si es posible recortar una palabra, hazlo.
+- Nunca uses la voz pasiva, usa la voz activa en su lugar.
+- Nunca uses una frase extranjera, una palabra científica o de la jerga si puedes pensar en un equivalente del inglés -o el idioma en el que redactes tu documento- cotidiano.
+
+## Usa listas y tablas para ordenar la información
