@@ -201,3 +201,75 @@
 - Nunca uses una frase extranjera, una palabra científica o de la jerga si puedes pensar en un equivalente del inglés -o el idioma en el que redactes tu documento- cotidiano.
 
 ## Usa listas y tablas para ordenar la información
+- Las buenas listas y tablas pueden transformar el caos técnico en algo ordenado.
+- Cuando escribas busca oportunidades para convertir la prosa en listas.
+
+### Diferentes tipos de listas y sus usos 
+- Cuando escribimos documentos, se debe tomar en cuenta que nuestros lectores **NO** siempre leerán todo nuestro contenido. Harán un escaneo rápido en nuestros documentos y buscarán los elementos de su interés.
+- Las listas y las tablas son útiles porque hacen hincapié en elementos de interés
+- Facilitan la lectura y también crean más espacio en blanco en nuestros documentos y extienden el texto para que las páginas no parezcan hojas estáticas repletas de letras.
+- Nos ayudan a que los lectores logren comprender, memorizar y revisar los puntos clave del tema en cuestión, seguir una secuencia de acciones o instrucciones y, además, separa los largos tramos de texto y los separa en frases cortas.
+
+### Lineamientos generales de las listas 
+- En contextos de technical writing, debes utilizar un estilo específico de listas:
+  - Utiliza las listas para resaltar o enfatizar el texto o para enumerar elementos secuenciales.
+  - Usa espaciado, indentación y puntuación en cada frase.
+  - Haz que los elementos de la lista sean paralelos en la redacción.
+  - Asegúrate de que cada elemento enlistado tenga que ver con el enfoque de la lista.
+  - Utiliza una introducción para presentar los elementos de la lista y para indicar el significado o propósito de esta (y puntuar con dos puntos).
+  - Evita el uso excesivo de listas.
+  - Puedes aprovechar la función “estilos” o “formatos” de tu software para crear listas verticales en lugar de construirlas manualmente.
+
+### Elige el tipo de lista correcto
+- Los siguientes tipos de listas dominan en la escritura técnica:
+  - Listas con viñetas
+  - Listas numeradas
+  - Listas incrustadas o embebidas
+- Utiliza una lista con viñetas para los artículos no ordenados. Y utiliza una lista numerada para los artículos ordenados.
+
+### Inicia tus listas con un verbo imperativo
+- En la medida de lo posible, trata de iniciar tus listas con un verbo imperativo. Un verbo imperativo es un verbo que le indica a alguien que debe hacer algo.
+
+### Utiliza mayúsculas y puntuación adecuadamente
+- Si los elementos de las listas son frases, utiliza mayúsculas y puntuación, si no son frases, no las uses.
+
+### Crea tablas útiles
+- Las tablas son esas filas y columnas de números y palabras. En su forma más simple, se conforma de filas y columnas.
+- En la parte superior de la tabla lleva un encabezado y en el borde izquierdo pueden figurar encabezados de fila. Mayormente se usan para datos numéricos, pero tampoco te cierres a eso.
+
+### Estilo y formato
+- En el texto que antecede a la tabla explica qué significa los datos dentro de ella.
+- No abrumes a tus lectores con tablas inmensas de 15 columnas y 50 filas.
+- Si usas unidades de medida, no pongas la abreviatura o la palabra completa en cada celda. Pon la abreviatura entre paréntesis en el encabezado de la columna o de la fila.
+- Si tus datos son números, **alinéalos a la derecha**.
+- Si tus datos son palabras, **alinéalas a la izquierda o al centro**.
+- Los encabezados de las columnas se centran en las columnas de datos numéricos y se alinean a la izquierda o al centro con las columnas de texto.
+
+## Estructurar párrafos
+- Los párrafos son la base de los documentos que redactamos como technical writers. En párrafos claros y precisos damos definiciones, explicamos un proceso o presentamos argumentos.
+- Los párrafos son la unidad mínima en la que se puede desarrollar una idea.
+
+### ¿Qué es un párrafo?
+- Un párrafo es la mínima unidad de redacción que explica y desarrolla el significado de una idea. 
+- Los párrafos generalmente tienen tres partes: la oración principal, las oraciones argumentativas y la oración final; todas ellas contienen la misma palabra o idea clave que controla la información en el resto del párrafo.
+- **La oración principal** tiene que ser una gran frase inicial. Invierte tu energía en grandes frases iniciales, estas son las que establecerán el punto central a tus párrafos.
+
+### Detalles a considerar en el propósito de tu párrafo 
+
+Tipo de Párrafo  | Detalles 
+------------- | -------------
+Procesos / How-To | Pasos, Instrucciones
+Cronología del tiempo | Secuencia de eventos / proceso de flujo de trabajo
+Ilustración | Especificar ejemplos
+Clasificación | Categorías / Características en común
+Definición | Características únicas /  Definición personal de un concepto
+Descripción | Impresión vívida del tema / imágenes sensoriales
+Comparación y contraste | Similitudes / Diferencias
+Causa y efecto | Razones para un evento / Consecuencias de un evento
+Argumento | Ventajas / Desventajas Datos
+Párrafo de opinión | Puntos de vista y observaciones / Razón de ser
+Narrativa | Historias cortas / Experiencias personales
+
+
+
+### Paso a paso para escribir un párrafo 
