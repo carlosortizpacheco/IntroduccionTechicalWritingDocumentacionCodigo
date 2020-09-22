@@ -270,6 +270,18 @@ Argumento | Ventajas / Desventajas Datos
 Párrafo de opinión | Puntos de vista y observaciones / Razón de ser
 Narrativa | Historias cortas / Experiencias personales
 
-
-
 ### Paso a paso para escribir un párrafo 
+1. Lee y anota los detalles del tema a documentar. Resalta las palabras clave.
+2. Haz una lluvia de ideas sobre lo que sabes del tema.
+3. Crea un resumen de palabras eligiendo 2-3 elementos relacionados para representar las ideas clave que presentarás.
+4. Organiza tu lista decidiendo el orden en el que presentarás tus ideas. Esto podría ser cronológicamente o en orden de importancia.
+5. Escribe una frase inicial temática que introduzca el tema de tu párrafo.
+6. Crea una oración para cada idea en tu resumen de palabras. Trata de vincular cada frase con su frase temática; esto también ayudará a tu párrafo a mantenerse en el objetivo.
+7. Escribe una oración final que:
+  - Resuma las ideas presentadas.
+  - Reafirme la idea principal presentada en la frase del tema de una manera diferente.
+  - Dé una opinión o conclusión.
+8. Revisa tus frases, decide qué tan bien se mantienen enfocadas y qué tan fácil es de leer tu párrafo.
+9. Edita tu párrafo en caso de que tenga errores de puntuación o mayúsculas.
+
+
