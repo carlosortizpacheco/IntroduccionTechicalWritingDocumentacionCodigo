@@ -284,4 +284,93 @@ Narrativa | Historias cortas / Experiencias personales
 8. Revisa tus frases, decide qué tan bien se mantienen enfocadas y qué tan fácil es de leer tu párrafo.
 9. Edita tu párrafo en caso de que tenga errores de puntuación o mayúsculas.
 
+## Documentando una función
+- En el caso de las funciones, es vital documentarlas para saber cuál es la tarea que realizan, cuáles son los parámetros que reciben y qué es lo que nos devuelven.
+- Hay un mito que circula dentro del círculo de programadores: si tú escribes tu código claramente, usas una estructura apropiada y convenciones de nomenclatura adecuadas, con eso es suficiente para llamarle **auto-documentación**. Esto no es cierto, solamente contribuye en gran medida a que el código sea fácil de leer, pero **no significa que esté documentado**.
 
+### Comentarios multilínea en cabeceras de funciones
+- Para comentar lo que hace una función usaremos comentarios de este tipo:
+  - El comentario comienza con una barra y dos asteriscos (/**).
+  - Cada nueva línea lleva un asterisco al comienzo (*).
+  - Escribe una descripción al principio para describir la función.
+  - La descripción de un parámetro se hace comenzando con @param.
+  - Si una línea es demasiado larga, la dividimos en varias líneas. La primera estará sin indentar y el resto indentada (desplazada hacia dentro) respecto a la primera.
+  - El comentario cierra con un asterisco y una barra diagonal (*/).
+  - Los comentarios puntuales sobre una línea de código se harán con dos barras inclinadas (//).
+
+```javascript
+/**
+
+* [algunaFuncion descripción]
+
+* @param {[tipoDeDato]} nombredeParametro1 [descripción]
+
+* @param {[tipoDeDato]} nombredeParametro2 [descripción]
+
+* @return {[tipoDeDato]} [descripción]
+
+*/
+
+var algunaFuncion = function (nombredeParametro1, nombredeParametro2) {
+
+// Hace algo...
+
+};
+```
+
+### Usa etiquetas normalizadas 
+- Cuando queramos agregar una descripción de un elemento usaremos etiquetas normalizadas.
+- Las etiquetas normalizadas más comunes son:
+
+Etiqueta | Descripción | Ejemplo
+--------- | --------- | ---------
+@const {type} | Indica que una propiedad o variable serán constantes y su tipo | @const {string}
+@deprecated | Indica uqe una función, método o propiedad no deberían usarse por ser obsoletas. Debe indicarse cuál es la función, método o propiedad que debe ser usada en su lugar. | deprecated Usar getNombre()
+@param {type} | Indica un parámetro para un método, función o constructor y el tipo de dato que es. | @param {string}
+@return {type} | Indica que devuelve un método o función y su tipo | @return {boolean}
+
+## Buenas prácticas de legibilidad para código y comentarios
+- El código de muestra sirve como un mini-portal al contenido de una documentación completa.
+- Los programadores utilizan el código de muestra (como documentación) para iniciarse rápidamente en el uso de la herramienta
+
+### Creando un código de muestra correcto
+- Un buen código de muestra es frecuentemente la mejor documentación para los programadores.
+- Al documentar código de muestra debemos de ser correctos y concisos para que nuestros lectores lo entiendan rápidamente y lo reutilicen fácilmente sin tener efectos secundarios. Para ello, el código de muestra debe cumplir las siguientes características:
+  - Estar programado sin errores.
+  - Realizar la función que dice realizar.
+  - Estar listo para producción (sin vulnerabilidades de seguridad).
+  - Seguir los formatos estándar del lenguaje de programación.
+- El código de muestra es una oportunidad para influir directamente en la forma en la que los programadores están escribiendo el código. - Un bloque de código es una pieza de un código de muestra, posiblemente de una o unas pocas líneas de largo.
+- Averigua cuál es el caso primario de lo que el código de muestra debe hacer.
+- Siempre prueba el código de muestra. Los sistemas adquieren mantenimiento, por lo que el código fuente puede cambiar sobre la marcha y el código muestra dejará de funcionar. 
+- Muchos equipos reciclan sus pruebas unitarias y los toman como código de muestra, eso es una **mala idea**. El objetivo principal de una **prueba unitaria** es **probar**; el único objetivo de un **código de muestra** es **educar** al usuario.
+
+### Código ejecutable
+- Cuando documentas el código de muestra debes explicar cómo ejecutarlo. Es posible que en el documento tengas que indicar a los usuarios que realicen actividades previas antes de ejecutar el código de muestra, como las siguientes:
+  - Descargar archivos.
+  - Instalar librerías.
+  - Ajustar los valores asignados a las variables.
+  - Configurar el entorno de desarrollo integrado (IDE).
+  - Ejecutar comandos.
+- No siempre los usuarios realizan correctamente las actividades anteriores. En algunas situaciones los usuarios prefieren ejecutar código de muestra directamente antes que leer la documentación. Y justo cuando algo no les es comprensible, ahora sí, pasan a leer la documentación.
+
+### Código conciso y comprensible
+- El código de la muestra debe ser conciso, lo ideal es que incluyas solo los componentes esenciales.
+- El código irrelevante puede distraer y confundir a tu lector.
+- Un código de muestra debe de ser comprensible, por lo que es importante contar con las siguientes características:
+  - Tener nombres descriptivos de clases, métodos, funciones y variables.
+  - Ser un código fácil de descifrar.
+  - En caso de que sea un código profundamente anidado, utilizar fuentes en negrita o de color para llamar la atención del lector sobre una sección específica del código de muestra.
+
+### Código comentado
+- Considera las siguientes recomendaciones sobre los comentarios en el código de muestra:
+
+Mantén los comentarios cortos, anteponiendo la claridad a la brevedad.
+Evita escribir comentarios sobre código que es muy predecible en su descripción o, dicho de otra manera, que sea “bastante obvio”. Siempre tomando en cuenta que en algunas ocasiones lo que para nosotros es obvio, quizás para alguien principiante no lo sea. Pensemos en nuestros lectores.
+Descarga toda tu energía escribiendo comentarios en puntos no intuitivos del código de muestra.
+Si tus lectores tienen mucha experiencia con una tecnología, no expliques lo que el código está haciendo, en este caso, explica por qué el código lo está haciendo.
+En la medida de lo posible ten todo el código necesario en un solo bloque para que los lectores puedan copiar y pegar fácilmente. Ten en cuenta que este tipo de lectores no solo recogen el código, también cualquier comentario insertado.
+
+Los comentarios dentro del código son un gran medio de comunicación técnica. Por lo tanto, pon cualquier descripción que pertenezca al código pegado dentro de los comentarios del código. Por el contrario, cuando tengas que explicar un concepto extenso o complicado pon el texto antes del programa de ejemplo.
+
+Tal vez lo más importante es que te veas a ti mismo como el defensor o representante de aquellos desarrolladores que necesitan usar la API o la herramienta que estás ilustrando. Piensa en las preguntas que te harían si tuvieran acceso a las herramientas que tú usas y pon las respuestas en la documentación + el código de muestra.
