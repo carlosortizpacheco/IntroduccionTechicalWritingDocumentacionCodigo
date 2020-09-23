@@ -364,13 +364,94 @@ Etiqueta | Descripción | Ejemplo
 
 ### Código comentado
 - Considera las siguientes recomendaciones sobre los comentarios en el código de muestra:
+  - Mantén los comentarios cortos, anteponiendo la claridad a la brevedad.
+  - Evita escribir comentarios sobre código que es muy predecible en su descripción o, dicho de otra manera, que sea “bastante obvio”.   - Siempre tomando en cuenta que en algunas ocasiones lo que para nosotros es obvio, quizás para alguien principiante no lo sea.      Pensemos en nuestros lectores.
+  - Descarga toda tu energía escribiendo comentarios en puntos no intuitivos del código de muestra.
+  - Si tus lectores tienen mucha experiencia con una tecnología, no expliques lo que el código está haciendo, en este caso, explica por qué el código lo está haciendo.
+- En la medida de lo posible ten todo el código en un solo bloque para que los lectores puedan copiar y pegar fácilmente. Ten en cuenta que este tipo de lectores no solo recogen el código, también cualquier comentario insertado.
+- Los comentarios dentro del código son un gran medio de comunicación técnica. Por lo tanto, pon cualquier descripción que pertenezca al código pegado dentro de los comentarios del código. Por el contrario, cuando tengas que explicar un concepto extenso o complicado pon el texto antes del programa de ejemplo.
 
-Mantén los comentarios cortos, anteponiendo la claridad a la brevedad.
-Evita escribir comentarios sobre código que es muy predecible en su descripción o, dicho de otra manera, que sea “bastante obvio”. Siempre tomando en cuenta que en algunas ocasiones lo que para nosotros es obvio, quizás para alguien principiante no lo sea. Pensemos en nuestros lectores.
-Descarga toda tu energía escribiendo comentarios en puntos no intuitivos del código de muestra.
-Si tus lectores tienen mucha experiencia con una tecnología, no expliques lo que el código está haciendo, en este caso, explica por qué el código lo está haciendo.
-En la medida de lo posible ten todo el código necesario en un solo bloque para que los lectores puedan copiar y pegar fácilmente. Ten en cuenta que este tipo de lectores no solo recogen el código, también cualquier comentario insertado.
+### Código reutilizable
+- Para que tu lector pueda reutilizar fácilmente el código de muestra solicita a las programadoras lo siguiente:
+  - Toda la información necesaria para ejecutar el código de muestra, incluyendo cualquier dependencia y configuración.
+  - Código que puede ser ampliado o personalizado de manera útil por otros usuarios.
+  - Cuando describas un código de muestra, ten en cuenta los posibles efectos secundarios. Nadie quiere un código inseguro o extremadamente ineficiente.
+  
+### El ejemplo y el anti-ejemplo
+- Algunos lenguajes de programación permiten a los programadores poner punto y coma (;) al final de cada instrucción. Supongamos que estás escribiendo un tutorial en un lenguaje como JavaScript que no sugiere poner punto y coma al final de cada instrucción. En este caso, mostrar tanto un buen ejemplo como un anti-ejemplo beneficiará al lector.
 
-Los comentarios dentro del código son un gran medio de comunicación técnica. Por lo tanto, pon cualquier descripción que pertenezca al código pegado dentro de los comentarios del código. Por el contrario, cuando tengas que explicar un concepto extenso o complicado pon el texto antes del programa de ejemplo.
+### Código secuenciado
+- Un buen conjunto de código de muestra puede incrementar el rango de complejidad de su lectura. Los lectores que no están familiarizados con cierta tecnología normalmente necesitan ejemplos simples para empezar.
 
-Tal vez lo más importante es que te veas a ti mismo como el defensor o representante de aquellos desarrolladores que necesitan usar la API o la herramienta que estás ilustrando. Piensa en las preguntas que te harían si tuvieran acceso a las herramientas que tú usas y pon las respuestas en la documentación + el código de muestra.
+## Organiza y define el alcance de tus documentos
+
+### Define el alcance de tu documento 
+- Un buen documento comienza por definir su alcance. Por ejemplo:
+`Este documento describe cómo crear apps para Android utilizando la API del marco de trabajo de Android y otras bibliotecas de código abierto.`
+- Estas definiciones de alcance benefician tanto al lector como al technical writer. Puede suceder que, mientras escribes, el contenido de tu documento se aleje de la definición del alcance. Lo que debes de hacer es reenfocar el documento al alcance definido o modificar la definición del alcance.
+
+### Define a tu audiencia
+- Un buen documento especifica explícitamente su audiencia y cualquier conocimiento o experiencia previa. Por ejemplo:
+`Esta documentación está dirigida para los desarrolladores familiarizados con la programación en JavaScript y conocimientos de programación orientada a objetos.`
+- Define correctamente tu Buyer Persona
+
+### Establece los puntos clave por adelantado
+- Nuestros lectores son personas ocupadas que no necesariamente leerán todas las páginas de nuestro documento. Imagina que solo pueden leer el primer párrafo de la página uno. Al revisar tu documentación asegúrate de que el inicio de tu documento responda a las preguntas esenciales de tus lectores.
+
+Los escritores profesionales concentran una energía considerable en la página uno para aumentar las probabilidades de que los lectores lleguen a la página dos. Sin embargo, la página uno de cualquier documento largo es la más difícil de escribir. Prepárate para revisar la página uno muchas veces.
+
+Siempre escribe un resumen ejecutivo (también conocido como abstract) para los documentos largos. Aunque el resumen ejecutivo debe ser muy corto, toma en cuenta que pasarás mucho tiempo escribiéndolo. Un resumen ejecutivo aburrido o confuso es una señal que advierte a los potenciales lectores de que se mantengan alejados.
+
+Cómo escribir para tu audiencia 🚀
+A lo largo de este curso he enfatizado varias veces la importancia de definir tu audiencia. En esta sección nos centramos en la definición de la audiencia como un medio para organizar tu documento.
+
+Preguntas para definir a tu audiencia ❓
+Responder a las siguientes preguntas te ayudará a determinar qué debe contener tu documento:
+
+¿Quién es tu público objetivo?
+¿Qué es lo que tus lectores ya saben antes de haber leído el documento?
+¿Qué deberían saber o poder hacer tus lectores después de haber leído el documento?
+Por ejemplo, supongamos que en una organización implementarán un nuevo algoritmo de redes neuronales profundas en un programa. La siguiente lista contiene algunas respuestas potenciales a las preguntas anteriores:
+
+Mi público objetivo está formado por científicas de datos y programadores de mi organización.
+La mayoría de mi público objetivo estudió conceptos avanzados de programación, conoce la API de Keras y tienen conocimiento intermedio en Python. Sin embargo, alrededor del 25% de mi público objetivo no ha implementado un algoritmo de redes neuronales profundas directamente en un programa.
+Después de leer este documento:
+Los lectores tendrán una idea clara de los conceptos teóricos implicados en el desarrollo de software inteligente mediante el uso de redes neuronales profundas.
+Los lectores conocerán el alcance y las mejores prácticas en el desarrollo de sistemas predictivos usando el paradigma de aprendizaje profundo, así como los beneficios implicados en su desarrollo.
+Los lectores serán capaces de desarrollar soluciones para problemas de alta complejidad mediante el diseño, construcción, validación e implementación de modelos de redes neuronales de alto desempeño.
+Cómo organizar la estructura de tu documento 🏗
+Después de definir tu público, organiza el documento para proporcionar lo que los lectores deben saber o ser capaces de hacer después de leer el documento. Por ejemplo, el esquema del documento podría ser el siguiente:
+
+Introducción a la Inteligencia Artificial y al Aprendizaje Profundo
+1.1. Entendiendo las Redes Neuronales y el Aprendizaje Profundo.
+1.2. Desarrollo de Redes Neuronales en Python.
+Fundamentos de Aprendizaje de Máquina
+2.1. Ramas de Aprendizaje de Máquina.
+2.2. Librerías para Aprendizaje de Máquina en Python.
+Variantes de Redes Neuronales
+3.1. Variantes de Redes Neuronales y sus Fundamentos.
+3.2. Arquitectura de una Red Neuronal de Visión Artificial.
+Ejemplos de Aplicaciones Modernas usando Aprendizaje Profundo
+4.1. Generación de Textos Usando Redes Neuronales Recurrentes.
+4.2. Modelos de redes neuronales para generar datos.
+Además, ten en cuenta la segmentación de tu público para darle un enfoque correcto a tu documento. Por ejemplo, el público objetivo estudió Python, pero aproximadamente una cuarta parte de tu público podría no recordar los detalles de la API de Keras. Por lo tanto, es probable que en el documento insertes referencias a documentación externa de la API en lugar de intentar explicarla.
+
+Documentación modular: divide tu tema en secciones 🔪
+La programación modular se divide en archivos, clases y métodos. El código modular es más fácil de leer, entender, mantener y reutilizar. Hacer que nuestros documentos sean modulares nos da los mismos beneficios. Si eres programador, probablemente tengas una fuerte familiarización con la modularidad funcional en el código, pero ¿cómo usarías estos principios en tu escritura?
+
+Imagina que tienes una bodega vacía en la que necesitas guardar un lote de cajas grandes, medianas y pequeñas. ¿Cómo planearías meter las cajas para asegurarte de que todas podrán entrar en la bodega? Por supuesto que primero meterías las cajas grandes, luego las medianas y finalmente las pequeñas. Si intentaras hacer esto en el orden contrario, fallarás.
+
+La cabeza del lector se parece mucho a una bodega vacía. La información generalmente se acomoda en su cerebro en tres tamaños: grande, mediana y pequeña. Los tamaños de la caja son el tamaño de la información. Necesitas acomodar cada caja dentro del espacio de la cabeza de nuestro lector para que procese y entienda nuestros escritos.
+
+Para decidir el orden de esta información y saber el orden en que debemos de escribirla puedes usar la estrategia de grabarte a ti mismo hablando (o escribiendo libremente) sobre algún tema durante un corto período de tiempo, pueden ser 2 a 5 minutos. Sé específico en tu explicación. Inténtalo varias veces hasta que seas capaz de entenderte a ti mismo y te parezca coherente.
+
+Lo sé, esto requiere disciplina, pero es una herramienta infalible para comunicar la información de manera modular.
+
+¿Pondrás en práctica estos ejercicios? 🔥
+Antes de avanzar a la siguiente clase debes completar los siguientes 2 desafíos.
+
+1️⃣ Escribe una documentación para principiantes sobre cómo conectar un celular vía USB a tu computadora.
+
+2️⃣ Escribe la documentación de un programa o función que hayas escrito por tu propia cuenta (en cualquier lenguaje de programación). Imagina que quieres convertir tu proyecto en open-source y estás escribiendo esta documentación para que otras programadoras entiendan tu programa y puedan ayudarte a escalarlo.
+
+Recuerda poner en práctica lo que aprendiste en esta clase. Debes definir el alcance, audiencia y puntos clave de tus documentos.
