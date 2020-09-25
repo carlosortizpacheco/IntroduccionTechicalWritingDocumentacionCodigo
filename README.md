@@ -396,62 +396,219 @@ Etiqueta | Descripción | Ejemplo
 - Define correctamente tu Buyer Persona
 
 ### Establece los puntos clave por adelantado
-- Nuestros lectores son personas ocupadas que no necesariamente leerán todas las páginas de nuestro documento. Imagina que solo pueden leer el primer párrafo de la página uno. Al revisar tu documentación asegúrate de que el inicio de tu documento responda a las preguntas esenciales de tus lectores.
+- Asegúrate de que el inicio de tu documento responda a las preguntas esenciales de tus lectores.
+- Los escritores profesionales concentran una energía considerable en la página uno para aumentar las probabilidades de que los lectores lleguen a la página dos.
+- Escribe un resumen ejecutivo (abstract) para los documentos largos. 
 
-Los escritores profesionales concentran una energía considerable en la página uno para aumentar las probabilidades de que los lectores lleguen a la página dos. Sin embargo, la página uno de cualquier documento largo es la más difícil de escribir. Prepárate para revisar la página uno muchas veces.
+### Cómo escribir para tu audiencia
+- Definición tu audiencia como un medio para organizar tu documento.
+- Preguntas para definir a tu audiencia
+  - ¿Quién es tu público objetivo?
+  - ¿Qué es lo que tus lectores ya saben antes de haber leído el documento?
+  - ¿Qué deberían saber o poder hacer tus lectores después de haber leído el documento?
 
-Siempre escribe un resumen ejecutivo (también conocido como abstract) para los documentos largos. Aunque el resumen ejecutivo debe ser muy corto, toma en cuenta que pasarás mucho tiempo escribiéndolo. Un resumen ejecutivo aburrido o confuso es una señal que advierte a los potenciales lectores de que se mantengan alejados.
+### Cómo organizar la estructura de tu documento
+- Organiza el documento para proporcionar lo que los lectores deben saber o ser capaces de hacer después de leer el documento. 
+- Ten en cuenta la segmentación de tu público para darle un enfoque correcto a tu documento. 
+- **Documentación modular** divide tu tema en secciones
+   - La programación modular se divide en archivos, clases y métodos. 
+   - El código modular es más fácil de leer, entender, mantener y reutilizar.
+   
+## Utiliza Markdown en documentos técnicos
+- Markdown es un lenguaje de marcado ligero que muchos profesionales utilizan para crear y editar documentos técnicos.
+ 
+### ¿En qué se utiliza Markdown? 
+- De acuerdo con la documentación de Markdown, este lenguaje de marcado es bueno para:
+  - Páginas web
+  - Contratos
+  - Notas
+  - Libros
+  - Presentaciones
+  - Emails
+  - Documentación
 
-Cómo escribir para tu audiencia 🚀
-A lo largo de este curso he enfatizado varias veces la importancia de definir tu audiencia. En esta sección nos centramos en la definición de la audiencia como un medio para organizar tu documento.
+### Editores de Markdown
+- Para trabajar con Markdown puedes hacerlo desde editores de texto como:
+  - Atom
+  - Sublime Text
+  - Notepad++
+  - Boost Note
+  - Visual Studio Code
+- Editores online:
+  - StackEdit
+  - Notion
+  - Zen
 
-Preguntas para definir a tu audiencia ❓
-Responder a las siguientes preguntas te ayudará a determinar qué debe contener tu documento:
+### Breve introducción a la sintaxis de Markdown
+- Dar formato a textos mediante Markdown tiene una curva de aprendizaje suave.
+- Markdown no hace grandes modificaciones como cambiar el tamaño de la fuente, el color o el tipo.
+-Lo único sobre lo que se puede trabajar es en cómo se muestra el texto.
+- Encabezados
+  - Los encabezados se usan frecuentemente en sitios web, artículos de revistas y avisos para llamar la atención sobre una sección. Como su nombre lo indica, actúan como títulos o subtítulos sobre las secciones.
+  - # H1
+  - ## H2
+  - ### H3
+  - #### H4
+  - ##### H5
+  - ###### H6
+- Énfasis
+  - Tres básicos elementos en este formato de texto son: itálica, negrita y tachada.
+  - Para hacer una palabra en itálica debes poner un asterisco * al inicio y al final de cada palabra.
+  - Si quieres el formato negrita, serán dos asteriscos **  al inicio y al final de la palabra o frase. 
+  - Y si es formato tachado, entonces serán dos virgulillas ~~ al inicio y final de cada palabra o frase.
+- Listas
+  - Hay varios tipos de listas. 
+  - Utiliza las listas ordenadas (numeradas) cuando los elementos deban seguir un orden.
+  - Utiliza las listas desordenadas (con viñetas) cuando no importa el orden de las instrucciones.
+- Enlaces
+  - Este tipo de enlace es el llamado enlace en línea. Para crear un enlace en línea debes encerrar el texto del enlace entre corchetes ( [ ] ) y después encerrar el enlace entre paréntesis ( ( ) ).
+  - [Platzi](https://platzi.com/)
 
-¿Quién es tu público objetivo?
-¿Qué es lo que tus lectores ya saben antes de haber leído el documento?
-¿Qué deberían saber o poder hacer tus lectores después de haber leído el documento?
-Por ejemplo, supongamos que en una organización implementarán un nuevo algoritmo de redes neuronales profundas en un programa. La siguiente lista contiene algunas respuestas potenciales a las preguntas anteriores:
+## Cómo revisar tu contenido de manera efectiva
 
-Mi público objetivo está formado por científicas de datos y programadores de mi organización.
-La mayoría de mi público objetivo estudió conceptos avanzados de programación, conoce la API de Keras y tienen conocimiento intermedio en Python. Sin embargo, alrededor del 25% de mi público objetivo no ha implementado un algoritmo de redes neuronales profundas directamente en un programa.
-Después de leer este documento:
-Los lectores tendrán una idea clara de los conceptos teóricos implicados en el desarrollo de software inteligente mediante el uso de redes neuronales profundas.
-Los lectores conocerán el alcance y las mejores prácticas en el desarrollo de sistemas predictivos usando el paradigma de aprendizaje profundo, así como los beneficios implicados en su desarrollo.
-Los lectores serán capaces de desarrollar soluciones para problemas de alta complejidad mediante el diseño, construcción, validación e implementación de modelos de redes neuronales de alto desempeño.
-Cómo organizar la estructura de tu documento 🏗
-Después de definir tu público, organiza el documento para proporcionar lo que los lectores deben saber o ser capaces de hacer después de leer el documento. Por ejemplo, el esquema del documento podría ser el siguiente:
+### Autoedición
+- El trabajo hacia un documento final es un proceso iterativo.
+[Guía para escribir en internet] (https://platzi.com/blog/la-guia-para-escribir-en-internet/)
 
-Introducción a la Inteligencia Artificial y al Aprendizaje Profundo
-1.1. Entendiendo las Redes Neuronales y el Aprendizaje Profundo.
-1.2. Desarrollo de Redes Neuronales en Python.
-Fundamentos de Aprendizaje de Máquina
-2.1. Ramas de Aprendizaje de Máquina.
-2.2. Librerías para Aprendizaje de Máquina en Python.
-Variantes de Redes Neuronales
-3.1. Variantes de Redes Neuronales y sus Fundamentos.
-3.2. Arquitectura de una Red Neuronal de Visión Artificial.
-Ejemplos de Aplicaciones Modernas usando Aprendizaje Profundo
-4.1. Generación de Textos Usando Redes Neuronales Recurrentes.
-4.2. Modelos de redes neuronales para generar datos.
-Además, ten en cuenta la segmentación de tu público para darle un enfoque correcto a tu documento. Por ejemplo, el público objetivo estudió Python, pero aproximadamente una cuarta parte de tu público podría no recordar los detalles de la API de Keras. Por lo tanto, es probable que en el documento insertes referencias a documentación externa de la API en lugar de intentar explicarla.
+### Adopta una guía de estilo
+- Una guía de estilo es un conjunto de normas para la redacción y el diseño de contenidos; define el estilo que debe utilizarse en la comunicación dentro de una organización determinada.
+- Para escribir la documentación de una manera más clara y mantener un tono, voz y estilo consistentes en tu documentación puedes leer y seguir una de estas guías de estilo:
+  - A List Apart
+  - Microsoft Style Guide
+  - University of Oxford Style Guide
+  - Google Developer Documentation Style Guide
+  - IBM Style Guide
+  - Airbnb JavaScript Style Guide
+- Recuerda alguna de las siguientes técnicas:
+  - Usar la voz activa para dejar claro quién está realizando la acción.
+  - Transcribir los pasos secuenciales en listas numeradas.
+  - Usar viñetas en la mayoría de las listas.
+- Los documentos con contenido efectivo presentan muchas otras técnicas que pueden ser útiles a la hora de escribir documentación técnica, por ejemplo:
+  - Escribir en segunda persona. Referirse a su audiencia como “tú” en lugar de “nosotros”.
+  - Poner circunstancias particulares antes de una instrucción, en lugar de después.
 
-Documentación modular: divide tu tema en secciones 🔪
-La programación modular se divide en archivos, clases y métodos. El código modular es más fácil de leer, entender, mantener y reutilizar. Hacer que nuestros documentos sean modulares nos da los mismos beneficios. Si eres programador, probablemente tengas una fuerte familiarización con la modularidad funcional en el código, pero ¿cómo usarías estos principios en tu escritura?
+### Piensa como tu audiencia
+- ¿Quién es tu público? Retrocede, sal de la caja y trata de leer tu borrador desde el punto de vista de tus lectores.
+- Puede ser especialmente útil contarle a tu audiencia cualquier suposición que hayas hecho. 
+- Puedes proporcionar enlaces a recursos donde puedan aprender más si necesitan repasar un tema específico.
 
-Imagina que tienes una bodega vacía en la que necesitas guardar un lote de cajas grandes, medianas y pequeñas. ¿Cómo planearías meter las cajas para asegurarte de que todas podrán entrar en la bodega? Por supuesto que primero meterías las cajas grandes, luego las medianas y finalmente las pequeñas. Si intentaras hacer esto en el orden contrario, fallarás.
+### Léelo en voz alta
+- Dependiendo del contexto, el estilo de tu escritura puede enganchar, alienar o incluso aburrir a tu público.
+- El estilo deseado de un documento determinado depende en cierta medida de la audiencia.
+- Para comprobar que tu escritura es conversacional léela en voz alta. Escúchate y detecta si hay frases incómodas, oraciones demasiado largas o cualquier otra cosa que no parezca natural.
+- Puedes intentar pedirle a otra persona que lea tu borrador en voz alta para ti, de esta manera te será más fácil detectar ajustes a realizar sobre tus escritos.
 
-La cabeza del lector se parece mucho a una bodega vacía. La información generalmente se acomoda en su cerebro en tres tamaños: grande, mediana y pequeña. Los tamaños de la caja son el tamaño de la información. Necesitas acomodar cada caja dentro del espacio de la cabeza de nuestro lector para que procese y entienda nuestros escritos.
+### Vuelve a tu borrador más tarde
+- Después de que escribas tu primer borrador, déjalo a un lado. Vuelve a él después de un tiempo y trata de leerlo con ojos frescos.
 
-Para decidir el orden de esta información y saber el orden en que debemos de escribirla puedes usar la estrategia de grabarte a ti mismo hablando (o escribiendo libremente) sobre algún tema durante un corto período de tiempo, pueden ser 2 a 5 minutos. Sé específico en tu explicación. Inténtalo varias veces hasta que seas capaz de entenderte a ti mismo y te parezca coherente.
+### Cambia el contexto
+- A algunos escritores les gusta imprimir su documentación y revisar en una copia en papel y con lápiz rojo en la mano.
+- Un cambio de contexto al revisar tu propio trabajo puede ayudarte a encontrar cosas para mejorar.
 
-Lo sé, esto requiere disciplina, pero es una herramienta infalible para comunicar la información de manera modular.
+### Encuentra un editor colega
+- Los escritores necesitan editores que les den retroalimentación sobre sus documentos. Pídele a alguien que revise tu documento y te dé una retroalimentación específica y constructiva.
+- Tu editor colega no necesita ser un experto en el tema técnico de tu documento, pero sí necesita estar familiarizado con la guía de estilo que sigues.
 
-¿Pondrás en práctica estos ejercicios? 🔥
-Antes de avanzar a la siguiente clase debes completar los siguientes 2 desafíos.
+## Cómo organizar documentos largos
+- **Elige escribir un solo documento grande** o un conjunto de documentos.
+- **Organiza** un documento.
+- **Añade** navegación.
+- **Revela** información de manera paulatina.
 
-1️⃣ Escribe una documentación para principiantes sobre cómo conectar un celular vía USB a tu computadora.
+### ¿Cuándo escribir documentos largos?
+- Hay dos sugerencias para resolver esta pregunta:
+  - Puedes organizar una colección de información en documentos independientes más largos.
+  - Puedes organizar un conjunto de documentos interconectados más cortos (sitios web, wikis).
+- **Guías de instrucciones, los resúmenes introductorios y las guías conceptuales** suelen funcionar mejor como documentos más breves cuando se dirigen a lectores que son nuevos en el tema.
+- **Tutoriales exhaustivos, las guías de mejores prácticas y documentos afines** pueden funcionar bien como documentos más extensos, especialmente cuando están dirigidos a lectores que ya tienen alguna experiencia con las herramientas y el tema.
+- **Gran tutorial** puede basarse en una narración para guiar al lector a través de una serie de tareas relacionadas en un documento más largo. Sin embargo, esto puede ser cansado para el lector. En este punto puedes aplicar la máxima de “divide y vencerás”, estos tutoriales pueden ser divididos en capítulos y hacer más amena su lectura.
 
-2️⃣ Escribe la documentación de un programa o función que hayas escrito por tu propia cuenta (en cualquier lenguaje de programación). Imagina que quieres convertir tu proyecto en open-source y estás escribiendo esta documentación para que otras programadoras entiendan tu programa y puedan ayudarte a escalarlo.
+### Organizar un documento
+- Después de completar el primer borrador de un documento, puedes revisarlo contra tu esquema e introducción para asegurarte de que no se ha perdido nada del enfoque original que pretendes abarcar.
+  - **Esbozar un documento**
+    - Empezar con un esquema puede ayudar a agrupar los temas de los que quieres escribir y determinar en dónde se necesitan más detalles. El esquema te ayuda a mover los temas antes de que te pongas a escribir.
+    - Puede ser útil pensar en un esquema como la narrativa de tu documento. No existen lineamientos a seguir para escribir un esquema, pero las siguientes sugerencias te proporcionarán consejos prácticos que pueden ser útiles:
+      - Antes de pedirle al lector que realice una tarea, explícale por qué la hará.
+      - Limita cada paso de tu esquema a describir un concepto o completar una tarea específica.
+      - Estructura tu esquema de manera que tu documento presente la información más relevante para tu lector. No satures de información a tu lector de manera instantánea.
+      - Considera la posibilidad de explicar un concepto y luego demostrar cómo el lector puede aplicarlo. Los documentos que alternan entre la información conceptual y actividades prácticas son una forma atractiva de aprender.
+      - Antes de empezar a redactar, comparte el esquema con tus colaboradores. Los esquemas son especialmente útiles si trabajas con un equipo de colaboradores que van a revisar y poner a prueba tu documento.
+  - **Escribe una introducción a tu documento**
+    - Si los lectores de tu documentación no encuentran relevancia en el tema, es probable que lo ignoren. Para establecer las reglas básicas para tus usuarios te recomiendo que proporciones una introducción que incluya la siguiente información:
+      - El tema que trata el documento.
+      - Qué conocimientos previos, ya sea teóricos o técnicos, se espera que tengan los lectores.
+      - Lo que el documento no cubre.
+    - Recuerda que quieres provocar que tu documentación sea fácil de enganchar, así que no intentes cubrir todo en la introducción.
+    - Después de completar el primer borrador, verifica que todo el documento tenga las expectativas que estableciste en la introducción. ¿Proyectas en tu introducción una visión general precisa de los temas que cubre tu documento? Si la respuesta es sí, es señal de que vamos bien, si es lo contrario, despeja un rato tu mente y vuelve a redactarla.
+    
+### Añade navegación en tu documento 
+- Cuando estás creando o editando un documento largo, probablemente tienes que añadir navegación. Puede sonar como una tarea larga, pero afortunadamente puedes hacerlo con solo algunos clics.
+- Proporcionar navegación y señalización a tus lectores asegura que puedan encontrar lo que buscan y la información que necesitan al alcance. La navegación clara incluye:
+  - Secciones de introducción y resumen.
+  - Desarrollo claro y lógico del tema.
+  - Títulos y subtítulos que ayudan a los usuarios a comprender el tema.
+  - Menú de índice que muestra a los usuarios dónde se encuentran en el documento.
+  - Enlaces a recursos relacionados o a información más detallada.
 
-Recuerda poner en práctica lo que aprendiste en esta clase. Debes definir el alcance, audiencia y puntos clave de tus documentos.
+#### Elige los encabezados basados en tareas
+- Elige un nombre de encabezado que describa la tarea en la que está trabajando tu lector. Evita los encabezados que se basen en terminologías o herramientas desconocidas.
+#### Agrega una breve introducción bajo cada encabezado
+- La mayoría de los lectores agradecen al menos una breve introducción bajo cada encabezado para proporcionar algún contexto. Evita poner un encabezado de nivel tres inmediatamente después de un encabezado de nivel dos.
+#### Revela información paulatinamente
+- El aprendizaje de nuevos conceptos, ideas y técnicas puede ser una experiencia gratificante para muchos lectores que se sienten cómodos leyendo la documentación a su propio ritmo. Sin embargo, enfrentarse a demasiados nuevos conceptos e instrucciones demasiado rápido puede ser abrumador. Es más probable que los lectores sean receptivos a documentos más largos que les revelen paulatinamente nueva información cuando la necesiten.
+- Las siguientes recomendaciones te ayudarán a implementar la información de una manera paulatina en tus documentos:
+  - En la medida de lo posible, agrega nueva terminología y conceptos.
+  - Introduce tablas, diagramas, listas y encabezados cuando sea apropiado.
+  - Reorganiza listas largas en listas cortas que expliquen cómo completar las subtareas.
+  - Empieza con ejemplos e instrucciones sencillas y añade paulatinamente técnicas más interesantes y complicadas.
+  
+## Crea ilustraciones instructivas
+- El uso de ilustraciones instructivas es una fase fundamental durante la elaboración de la documentación técnica. Las ilustraciones ayudan a transmitir a tus lectores información compleja de una manera más comprensible y clara.
+- Los lectores prefieren ver ilustraciones en lugar de texto. Estas se utilizan para informar, explicar, ilustrar o aprender.
+
+### Enfoca tu ilustración en el pie de imagen
+- En ocasiones será complicado elegir la ilustración ideal para mostrar a tus lectores. Te sugiero que comiences por escribir primero el pie de imagen y a partir de eso tendrás más enfoque en lo que debe de incluir tu ilustración.
+- El pie de imagen es el breve texto descriptivo que aparece al borde inferior de la ilustración y tiene como objetivo darle un sentido concreto a lo que se muestra.
+- Las características de un buen pie de imagen son las siguientes:
+  - Es breve y conciso.
+  - Aporta información necesaria.
+  - Debe atraer la atención de tu lector.
+
+### Evita ilustraciones técnicas complejas
+- Así como la sugerencia de escribir pies de imágenes breves y concisos, lo mismo pasa con el contenido de las ilustraciones que vayas a usar. Deben de ser simples y legibles a la vista.
+- Los technical writers de Google recomiendan evitar las ilustraciones que requieren más de cinco puntos para explicarse
+- En estos casos, la sugerencia que los expertos dan es que se divida en módulos para que la ilustración sea visualmente digerible.
+
+### Usa señales visuales
+- Cuando realices capturas de pantallas con varios elementos utiliza figuras para señalar el punto a observar. Puedes usar un rectángulo, un óvalo, una flecha o cualquier figura que enfoque la atención de tu lector para que no se pierda en la imagen.
+
+### Simplifica tus ilustraciones
+- ¿Recuerdas que cuando escribimos nuestros primeros documentos tenemos que hacerlos a manera de borradores y sobre la marcha irlos mejorando? Es lo mismo con las ilustraciones. Podemos modificar las ya existentes y, por supuesto, irlas mejorando.
+- Cuando hagas la revisión de tus ilustraciones, toma en cuenta los siguientes puntos:
+  - Hacer lo más simple posible la ilustración.
+  - Dividir en módulos la ilustración en caso de que sea compleja a la vista.
+  - Revisar que los colores y las fuentes sean adecuadas para su lectura.
+
+### Herramientas gratuitas
+- Algunas herramientas gratuitas de diagramado que puedes encontrar en la web son:
+  - Draw.io
+  - Lucidchart
+  - Creately
+  - Miro
+- Nunca pierdas de vista el objetivo de tus documentos técnicos ni las necesidades de tus lectores.
+- Mientras construyes tus documentos ten siempre en mente a tu audiencia.
+
+## Resumen
+- Technical Writing va mucho más allá de la creación de manuales para software y computadoras. Nuestro objetivo es transformar la información técnica en un lenguaje fácilmente comprensible para tu audiencia.
+- Sabes identificar a la audiencia para la cual van dirigidos los documentos técnicos que realices.
+- Conoces herramientas y recomendaciones a considerar cuando recopilas información para tus documentos técnicos.
+- Puedes aplicar los conceptos de gramática básica en tus escritos.
+- Aprendiste a usar términos adecuados al definir terminología desconocida.
+- Escribes tu documentación de una manera corta, correcta, efectiva y principalmente con claridad.
+- Conviertes los textos en prosa a listas y/o tablas con información útil para el lector.
+- Estructuras párrafos claros y precisos para dar definiciones, explicar un proceso o presentar argumentos.
+- Repasaste o diste un primer vistazo a los conceptos básicos de la programación: los tipos de datos más comunes, qué es HTML y JavaScript, cómo trabajar con variables, constantes, case-sensitive, entre otros.
+- Sabes documentar bloques de código para explicar la tarea que realizan, qué parámetros reciben y qué valor van a retornar.
+- Sigues las características esenciales para documentar código de muestra: el código debe ser correcto, conciso, comprensible, comentado, reutilizable y secuenciado.
+- Aprendiste a organizar documentos de una manera coherente a través de esquemas, escribiendo introducciones enganchadoras, añadiendo navegación en tu documento y revelando información paulatinamente.
+- Sabes cómo crear ilustraciones simples, instructivas, legibles a la vista, teniendo en cuenta el pie de imagen y usando señales visuales para que tu lector logre comprender nuestro contenido.
